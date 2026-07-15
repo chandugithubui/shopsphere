@@ -1,4 +1,4 @@
-# Day 2 - Git & Project Setup
+# Day 1.1 - Git & Project Setup
 
 ## Objective
 Set up the ShopSphere project repository and initialize version control.
