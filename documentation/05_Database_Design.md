@@ -750,6 +750,17 @@ Future features may include:
 - Subscription Products
 - Analytics Dashboard
 
+AI Search History
+
+(optional)
+
+AI Generated Description
+
+(optional)
+
+Review Summary Cache
+
+(optional)
 
 # Conclusion
 

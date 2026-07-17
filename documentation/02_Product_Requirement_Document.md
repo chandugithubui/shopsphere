@@ -412,6 +412,17 @@ The following features are planned for future releases:
 - Product Comparison
 - Social Login (Google, Facebook)
 
+## AI Features
+
+The platform will include AI-powered features to improve customer experience and increase business value.
+
+### Functional Requirements
+
+- AI Product Search
+- AI Shopping Assistant
+- AI Product Description Generator
+- AI Review Summarization
+
 # Assumptions
 
 Assumptions are conditions that are considered to be true during project planning and development. These assumptions help the development team proceed without waiting for every detail to be finalized.

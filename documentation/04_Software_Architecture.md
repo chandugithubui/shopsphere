@@ -159,6 +159,23 @@ The ShopSphere architecture follows these software engineering principles:
 - RESTful API Design
 - Reusable Components
 
+Frontend
+
+↓
+
+Backend
+
+↓
+
+AI Service
+
+↓
+
+AI Provider
+
+↓
+
+Response
 
 # High-Level Architecture
 
@@ -201,6 +218,8 @@ The frontend never communicates directly with the database. All requests pass th
                         │
                         ▼
                  React Updates UI
+
+
 
 
 # Layer Responsibilities

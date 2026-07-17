@@ -8,13 +8,13 @@ ShopSphere
 
 ## Project Type
 
-Full Stack MERN E-Commerce Web Application
+Production-Ready AI-Powered MERN E-Commerce Platform
 
 ---
 
 ## Project Goal
 
-To build a production-ready e-commerce platform using the MERN stack while following real software engineering practices such as requirement gathering, software architecture, API design, database design, Git workflow, and documentation.
+To build a Production Ready AI Powered MERN Ecommerce  platform using the MERN stack while following real software engineering practices such as requirement gathering, software architecture, API design, database design, Git workflow, and documentation.
 
 The project is designed to strengthen full-stack development skills and prepare for technical interviews.
 
@@ -63,6 +63,40 @@ Many online stores lack scalable architecture, proper documentation, and maintai
 - Payment Integration (Demo)
 - Admin Dashboard
 - Responsive UI
+
+## AI Features
+
+ShopSphere integrates Artificial Intelligence to improve the shopping experience and simplify product management.
+
+### AI Product Search
+
+Users can search using natural language.
+
+Example:
+
+> Show me running shoes under ₹5000.
+
+---
+
+### AI Shopping Assistant
+
+Provides intelligent product recommendations based on user needs.
+
+Example:
+
+> Suggest a laptop for programming.
+
+---
+
+### AI Product Description Generator
+
+Allows administrators to generate SEO-friendly product descriptions using AI.
+
+---
+
+### AI Review Summary
+
+Summarizes hundreds of customer reviews into short, meaningful insights.
 
 ---
 

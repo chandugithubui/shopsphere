@@ -378,3 +378,13 @@ If invalid → 401 Unauthorized
 | GET    | `/api/admin/users`     | User List            | ✅ Admin |
 | PATCH  | `/api/admin/users/:id` | Update User          | ✅ Admin |
 | DELETE | `/api/admin/users/:id` | Delete User          | ✅ Admin |
+
+## AI Module
+
+| Method | Endpoint                      | Description                     | Auth    |
+| ------ | ----------------------------- | ------------------------------- | ------- |
+| POST   | `/api/ai/search`              | Natural Language Product Search | ✅       |
+| POST   | `/api/ai/recommend`           | Product Recommendations         | ✅       |
+| POST   | `/api/ai/product-description` | Generate Product Description    | ✅ Admin |
+| POST   | `/api/ai/review-summary`      | Generate Review Summary         | ✅       |
+

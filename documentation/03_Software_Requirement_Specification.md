@@ -93,7 +93,21 @@ The Customer is the primary user of the platform.
 - View order history.
 - Submit product ratings and reviews.
 - Update profile information.
+FR-18
 
+System shall provide AI-powered natural language product search.
+
+FR-19
+
+System shall generate AI product descriptions.
+
+FR-20
+
+System shall summarize customer reviews using AI.
+
+FR-21
+
+System shall recommend products using AI.
 ---
 
 ## 2. Administrator
