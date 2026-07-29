@@ -1,20 +1,25 @@
+import { Link } from "react-router-dom";
+
 function ProductCard({ product }) {
   return (
-    <article class="product-card">
+    <article className="product-card">
       <img
       className="product-image"
       src = {product.image}
       alt = {product.name}
       />
-      <div class="product-info">
+      <div className="product-info">
        <h2>{product.name}</h2>
        <p class= "product-price">
         ₹{product.price}
        </p>
-       <p class ="product-rating">
+       <p className="product-rating">
         ⭐ {product.rating}
        </p>
-       <button>View Product</button>
+       <Link to={`/products/${product.id}`}>
+         <button>View Product</button>
+       </Link>
+       
       </div>
       
     </article>
