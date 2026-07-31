@@ -1,15 +1,16 @@
+import Hero from "../../components/home/Hero";
 import ProductGrid from "../../components/product/ProductGrid";
 import products from "../../data/products";
 
 function Home() {
   return (
-    <main>
-      <h1>Welcome to ShopSphere AI</h1>
+      <main>
+        <Hero />
 
-      <p>AI-powered intelligent shopping experience.</p>
-
-      <ProductGrid products={products} />
-    </main>
+        <section className="products-section">
+           <ProductGrid products={products} />
+        </section>
+      </main>
   );
 }
 
