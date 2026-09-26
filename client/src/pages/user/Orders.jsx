@@ -1,4 +1,10 @@
-function Orders(){
-    return <h1>Orders</h1>
+function Orders() {
+    return (
+        <div>
+            <h1>My Orders</h1>
+            <p>Your orders will appear here.</p>
+        </div>
+    );
 }
+
 export default Orders;

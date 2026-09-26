@@ -10,7 +10,7 @@ function ProductCard({ product }) {
       />
       <div className="product-info">
        <h2>{product.name}</h2>
-       <p class= "product-price">
+       <p className= "product-price">
         ₹{product.price}
        </p>
        <p className="product-rating">

@@ -7,16 +7,8 @@ import "./App.css";
 
 
 function App() {
-  return(
-    <>
-    <Navbar/>
-
-
-    <AppRoutes/>
   
-    <Footer />
-    </>
-  )
+  return <AppRoutes />;
 }
 
 export default App;

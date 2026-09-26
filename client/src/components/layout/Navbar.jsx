@@ -1,12 +1,19 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
+import { useAuth } from "../../context/AuthContext";
 import "./../../styles/Navbar.css";
 
 function Navbar() {
-    return(
+    const { isAuthenticated, setIsAuthenticated } = useAuth();
+    const navigate = useNavigate();
+    function handleLogout() {
+        setIsAuthenticated(false);
+        navigate("/");
+    }
+    return (
         <nav className="navbar">
             <div className="logo">
 
-               <h2>ShopSphere AI</h2>
+                <h2>ShopSphere AI</h2>
 
             </div>
 
@@ -20,20 +27,32 @@ function Navbar() {
                 <li>
                     <NavLink to="/categories">Categories</NavLink>
                 </li>
-
-            </ul>
             
+            </ul>
+
 
             <div className="nav-actions">
                 <input
-                  type="text"
-                  placeholder="Search Products..."
+                    type="text"
+                    placeholder="Search Products..."
 
                 />
 
                 <button>🛒 Cart (0)</button>
 
-                <button>Login</button>
+                {isAuthenticated ? (
+                    <>
+                        <NavLink to="/profile">Profile</NavLink>
+
+                        <button onClick={handleLogout}>
+                            Logout
+                        </button>
+                    </>
+                ) : (
+                    <NavLink to="/login">
+                        <button>Login</button>
+                    </NavLink>
+                )}
 
             </div>
         </nav>
