@@ -1,0 +1,230 @@
+/* ==============================
+   ShopSphere AI - Authentication
+================================= */
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: #f5f7fb;
+  font-family: Arial, sans-serif;
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 1100px;
+  min-height: 620px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #ffffff;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+
+/* LEFT SIDE */
+
+.auth-brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #4f46e5
+  );
+  color: #ffffff;
+}
+
+.auth-brand h2 {
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+.auth-brand h1 {
+  margin: 0 0 20px;
+  font-size: 44px;
+  line-height: 1.15;
+}
+
+.auth-brand p {
+  max-width: 430px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+
+/* RIGHT SIDE */
+
+.auth-form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.auth-form-card {
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-form-card h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+  color: #111827;
+}
+
+.auth-subtitle {
+  margin: 0 0 32px;
+  color: #6b7280;
+}
+
+
+/* FORM FIELDS */
+
+.auth-field {
+  margin-bottom: 20px;
+}
+
+.auth-field label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.auth-field input {
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.auth-field input:focus {
+  border-color: #2563eb;
+}
+
+
+/* PASSWORD */
+
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  padding-right: 70px;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+/* FORGOT PASSWORD */
+
+.forgot-password {
+  text-align: right;
+  margin-top: -8px;
+  margin-bottom: 22px;
+}
+
+.forgot-password a {
+  color: #2563eb;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+
+/* ERROR */
+
+.auth-error {
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background: #fee2e2;
+  color: #b91c1c;
+  font-size: 14px;
+}
+
+
+/* SUBMIT BUTTON */
+
+.auth-submit {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.auth-submit:hover {
+  background: #1d4ed8;
+}
+
+
+/* ACCOUNT SWITCH */
+
+.auth-switch {
+  margin-top: 24px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.auth-switch a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .auth-page {
+    padding: 20px;
+  }
+
+  .auth-container {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .auth-brand {
+    padding: 40px 30px;
+  }
+
+  .auth-brand h2 {
+    margin-bottom: 25px;
+  }
+
+  .auth-brand h1 {
+    font-size: 32px;
+  }
+
+  .auth-form-section {
+    padding: 40px 30px;
+  }
+}
